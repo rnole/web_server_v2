@@ -18,7 +18,7 @@ esp_state FSM[NUM_STATES] = {
   {&On_handler}              //ON
 };
 
-void setup() {
+void setup(){
   Serial.begin(9600);
   sw_serial.begin(38400);
   Wifi_init();
